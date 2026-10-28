@@ -1,0 +1,34 @@
+{
+  "deep_ensemble": {
+    "roc_auc": 0.8473969989360531,
+    "pr_auc": 0.6803940748017113,
+    "accuracy": 0.7786187322611163,
+    "precision": 0.5633423180592992,
+    "recall": 0.7437722419928826,
+    "f1": 0.6411042944785276,
+    "threshold": 0.5499999999999999
+  },
+  "logistic_regression_baseline": {
+    "roc_auc": 0.8462734343471401,
+    "pr_auc": 0.679608071407956,
+    "accuracy": 0.7729422894985809,
+    "precision": 0.555256064690027,
+    "recall": 0.7330960854092526,
+    "f1": 0.6319018404907976,
+    "threshold": 0.5549999999999999
+  },
+  "n_test": 1057,
+  "config": {
+    "data": "data/telco_churn.csv",
+    "out": "results",
+    "seeds": 5,
+    "epochs": 60,
+    "patience": 12,
+    "batch": 128,
+    "lr": 0.001,
+    "wd": 0.001,
+    "hidden": 64,
+    "blocks": 2,
+    "dropout": 0.4
+  }
+}
